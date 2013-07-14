@@ -26,7 +26,7 @@ def pct2color( pct, map, verbose=0 ):
         map[35] = [255, 153, 0, ] #Orange
         map[60] = [255, 255, 0, ] #Yellow
         map[100] = [ 0, 255, 0, ] #Green
-        pct2color( 50, map) # returns [255, 153, 0] #ffd600
+        pct2color( 50, map) # returns [255, 153, 0] #ffd600 -- an orangish-yellow
     """
 
     fpct=float(pct)

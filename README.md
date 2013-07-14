@@ -40,7 +40,7 @@ where "index" is a number between 0 and 100. The map can contain as many values 
     map[35] = [255, 153, 0, ] #Orange
     map[60] = [255, 255, 0, ] #Yellow
     map[100] = [ 0, 255, 0, ] #Green
-    pct2color( 50, map) # returns [255, 153, 0] #ffd600
+    pct2color( 50, map) # returns [255, 153, 0] #ffd600 -- an orangish-yellow
     
 ###tuple2hex(tup)
 Convert a tuple of RGB values into a hex color code.
