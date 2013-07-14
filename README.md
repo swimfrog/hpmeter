@@ -11,8 +11,10 @@ FUNCTIONS
 Generate a color based on a gradient map and a percentage.
         
 The gradient map is a dictionary of arrays of the structure:
+
     map[index] = [ r, g, b, ],
     map[index] = [ r, g, b, ],
+
 where "index" is a number between 0 and 100. The map can contain as many values as necessary to define the required gradient.
 
 #### Example 1:
