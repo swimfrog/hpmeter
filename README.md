@@ -3,7 +3,21 @@ hpmeter
 
 A script for generating HP meters (for games). The gradient function is probably useful for other things as well.
 
-(From the pydoc)
+USAGE
+-----
+
+    usage: hpmeter.py [-h] [--width WIDTH] [--height HEIGHT] [--output OUTPUT] [--verbose] range
+
+    positional arguments:
+      range            Range of hpmeters to generate
+
+    optional arguments:
+      -h, --help       show this help message and exit
+      --width WIDTH    Width in pixels of output HP meter images. Default is 100
+      --height HEIGHT  Height in pixels of output HP meter images. Default is 15
+      --output OUTPUT  Output filename prefix. Default is "hpmeter"
+      --verbose        Be verbose.
+
 FUNCTIONS
 ---------
 ###pct2color(pct, map, verbose=0)
