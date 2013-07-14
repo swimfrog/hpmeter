@@ -5,7 +5,7 @@ A script for generating HP meters (for games). The gradient function is probably
 
 (From the pydoc)
 FUNCTIONS
-=========
+---------
 ###pct2color(pct, map, verbose=0)
     
 Generate a color based on a gradient map and a percentage.
