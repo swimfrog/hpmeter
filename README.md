@@ -1,7 +1,7 @@
 hpmeter
 =======
 
-A script for generating HP meters (for games). The gradient function is probably useful for other things as well.
+A script for generating HP meters (for games). I originally made this script to help my nephew with a game he was making while taking a class at DigiPen. The pct2color function might come in handy for other things down the line.
 
 USAGE
 -----
